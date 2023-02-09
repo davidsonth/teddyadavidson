@@ -5,6 +5,9 @@ import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import { BrowserRouter as Router, Routes,  Route } from 'react-router-dom';
 import About from './pages/About';
+import Engineering from './pages/Engineering';
+import Networking from './pages/Networking';
+import Programming from './pages/Programming';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/engineering' element={<Engineering />} />
+        <Route path='/networking' element={<Networking />} />
+        <Route path='/programming' element={<Programming />} />
       </Routes>
     </Router>
   );

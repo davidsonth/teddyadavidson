@@ -1,0 +1,28 @@
+ul.nav {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding-left: 0px;
+  background-color: #3D99CE;
+  text-align: center;
+}
+ul.nav > li {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  display: inline-block;
+  padding: 10px 20px;
+}
+ul.nav > li:hover {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  background-color: #2779BF;
+}
+ul.nav > li > a {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  color: white;
+  text-decoration: none;
+}
+h1.title {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  text-align: center;
+}
+h3.body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 10px 20px;
+}

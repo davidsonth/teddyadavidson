@@ -8,6 +8,8 @@ import About from './pages/About';
 import Engineering from './pages/Engineering';
 import Networking from './pages/Networking';
 import Programming from './pages/Programming';
+import Skills from './pages/Skills';
+import QuotesGenerator from './QuotesGenerator';
 
 function App() {
   return (
@@ -19,7 +21,11 @@ function App() {
         <Route path='/engineering' element={<Engineering />} />
         <Route path='/networking' element={<Networking />} />
         <Route path='/programming' element={<Programming />} />
+        <Route path='/skills' element={<Skills />} />
       </Routes>
+      <div>
+        <QuotesGenerator />
+      </div>
     </Router>
   );
 }

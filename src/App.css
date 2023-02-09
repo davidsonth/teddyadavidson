@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+div.quote {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 10px 20px;
+}

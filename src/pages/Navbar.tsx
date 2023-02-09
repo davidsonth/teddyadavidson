@@ -11,6 +11,7 @@ const Navbar = () => {
                 <li><a href="/engineering">Engineering Projects</a></li>
                 <li><a href="/programming">Programming Projects</a></li>
                 <li><a href="/networking">Networking and Operating System Projects</a></li>
+                <li><a href="/skills">Skills and Certifications</a></li>
             </ul>
         </div>
     );

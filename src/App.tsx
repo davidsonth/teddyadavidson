@@ -10,6 +10,7 @@ import Networking from './pages/Networking';
 import Programming from './pages/Programming';
 import Skills from './pages/Skills';
 import QuotesGenerator from './QuotesGenerator';
+import ContactMe from './pages/ContactMe';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/skills' element={<Skills />} />
       </Routes>
       <div>
+        <ContactMe />
         <QuotesGenerator />
       </div>
     </Router>

@@ -1,9 +1,8 @@
 import React from 'react';
 import './Pages.css'
-import './download.pdf'
 
 const downloadTxtFile = () => {
-    fetch('./download.pdf')
+    fetch('technical_report.pdf')
 			.then(response => {
 				response.blob().then(blob => {
 					let url = window.URL.createObjectURL(blob);
@@ -34,7 +33,7 @@ const Engineering = () => {
             
             The techincal report for this project can be found here.
         </h3>
-        <button id="downloadTechReport" onClick={downloadTxtFile} value="download">
+        <button id="downloadTechReport" onClick={downloadTxtFile}>
             Technical Report
         </button>
     </div>

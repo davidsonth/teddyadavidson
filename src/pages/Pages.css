@@ -26,3 +26,13 @@ h3.body {
   font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
   padding: 10px 20px;
 }
+div.body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 10px 20px;
+}
+
+button.body {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 10px 20px;
+  object-position: top 0 left 10px;
+}

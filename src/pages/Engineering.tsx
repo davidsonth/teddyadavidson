@@ -33,9 +33,11 @@ const Engineering = () => {
             
             The techincal report for this project can be found here.
         </h3>
+        <div className='body'>
         <button id="downloadTechReport" onClick={downloadTxtFile}>
             Technical Report
         </button>
+        </div>
     </div>
     );
 }

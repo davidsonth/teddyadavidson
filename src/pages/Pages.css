@@ -36,3 +36,11 @@ button.body {
   padding: 10px 20px;
   object-position: top 0 left 10px;
 }
+img.inline{
+  flex-basis: 40%
+}
+div.container{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
